@@ -41,9 +41,9 @@ fun collatzSequence(c0: Int): List<Int>{
 fun main() {
     //podstawowe wywołanie funkcji
     var sequence = collatzSequence(5)
-    println("Collatz sequence for c0=6: $sequence\n")
+    println("Collatz sequence for c0=5: $sequence\n")
     sequence = collatzSequence(27)
-    println("Collatz sequence for c0=19: $sequence\n")
+    println("Collatz sequence for c0=27: $sequence\n")
 
     //asercje
     sequence= collatzSequence(4)
