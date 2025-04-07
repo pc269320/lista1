@@ -46,8 +46,8 @@ fun main(){
 
     //sprawdzenie złych długości boków
     try{
-        println("\nTriangle with sides equal to 1.0, 2.0 and 4.0.")
-        heron(1.0, 2.0, 4.0)
+        println("\nTriangle with sides equal to 1.0, 2.0 and 3.0.")
+        heron(1.0, 2.0, 3.0)
     } catch (e: IllegalArgumentException){
         println("${e.message}")
     }
